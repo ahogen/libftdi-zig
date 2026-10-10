@@ -1,0 +1,21 @@
+.{
+    .name = .libftdi,
+    .version = "1.5.0",
+    .minimum_zig_version = "0.17.0",
+    .fingerprint = 0x65399c5c3febe0ea,
+    .dependencies = .{
+        .libftdi = .{
+            .url = "https://salsa.debian.org/aurel32/libftdi1/-/archive/upstream/1.5/libftdi1-upstream-1.5.tar.gz",
+            .hash = "N-V-__8AAHfICAAHCm3QzE5SuHeVUSu3Li-K50aKvg2GfcFv",
+        },
+        .libusb = .{
+            .url = "https://github.com/allyourcodebase/libusb/archive/5c2dc368e90ec27a3300e9ceba3935f822a1299b.zip",
+            .hash = "libusb-0.0.1-P02YQvOpFwCErW0Xk3r3x63H3KvlsQLE1pOGWUguKRbh",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+    },
+}
